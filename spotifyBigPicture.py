@@ -12,7 +12,7 @@ LINUX = 'linux'
 RESOURCES = 'Resources'
 RESOURCES_ZIP = 'resources.zip'
 RESOURCES_PATH_OSX = '/Applications/Spotify.app/Contents/' + RESOURCES
-RESOURCES_PATH_LINUX = '/opt/spotify/spotify-client/Data/' + RESOURCES_ZIP
+RESOURCES_PATH_LINUX = '/usr/share/spotify/spotify-client/Data/' + RESOURCES_ZIP
 DEFAULT_FONT_SIZE = 8
 PATTERN = '(size: ([^;]*))|(size:([^;]*))|(size="([^"]*)")|(size=\'([^\']*)\')'
 
